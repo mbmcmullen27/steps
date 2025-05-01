@@ -1,0 +1,20 @@
+    # Each step executes an action, in this case one templates files into the working directory.
+    - id: print
+      name: log
+      action: debug:log
+      input:
+        message: "template executed."
+
+        # Each step executes an action, in this case one templates files into the working directory.
+    - id: print2
+      name: log
+      action: debug:log
+      input:
+        message: "template executed."
+
+        # Each step executes an action, in this case one templates files into the working directory.
+    - id: print3
+      name: log
+      action: debug:log
+      input:
+        message: "template executed."
